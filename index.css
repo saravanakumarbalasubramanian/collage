@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  body{
+    background-color: gray;
+  }
+
+.boomer__logo{
+margin: 100px;
+margin-left :610px; 
+width: 300px;
+height:300px;
+}
+.tag__name{
+  margin-left: 450px;
+}
+
+
+.parent{
+ margin-left: 480px;
+  margin-bottom: 100px;
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  /*flex is used to arrange the boxes in horizontal order  and the gap can use only when the flex is present*/
+  gap: 5px ;
+ 
+  /*center,space-between,space-around,space-evenly,flex-start,*/  
+}
+
+.child{
+  margin-top: 100px;
+  margin-left: -5px;
+  background-color: greenyellow;
+  width: 200px;
+  height: 200px;
+}
+.text{
+  margin-left: 400px;
+  margin-top: -30px;
+}
